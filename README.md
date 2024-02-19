@@ -1,5 +1,5 @@
-# Just Another Cyber Security Awareness Training (JACSAT)
+# Just Another Cybersecurity Awareness Training
 
-This repository contains a home-made cyber security training in the form of a markdown presentation put together with Marpit.
+This repository contains a home-made cybersecurity training in the form of a markdown presentation put together with [Marp](https://marp.app/).
 
-It is Just Another Cyber Security Awareness Training (JACSAT)
+In other words, it is Just Another Cybersecurity Awareness Training (JACAT)

@@ -23,7 +23,7 @@ math: mathjax
 ---
 
 <style scoped> { font-size: 350%; }</style>
-<!-- _footer: 'JACSAT version v.1.01, CC BY Lukas Greve 2024' -->
+<!-- _footer: 'JACAT version v.1.01, CC BY Lukas Greve 2024' -->
 
 
 ##### *Plan*
@@ -181,11 +181,11 @@ The most powerful cyber powers are neutral or friendly to Ukraine
 
 | Name |        Affilation | Known for |
 | ---- | ----------: | ----------: |
-| [Sandworm](https://en.wikipedia.org/wiki/Sandworm_(hacker_group)) or Voodoo Bear | GRU | [NotPetya](https://en.wikipedia.org/wiki/Petya_and_NotPetya), 2017 cyber attack on Ukraine |
-| [Fancy Bear](https://en.wikipedia.org/wiki/Fancy_Bear) or APT28 | GRU | US elections medling |
-| [Cozy Bear](https://en.wikipedia.org/wiki/Cozy_Bear), or APT29 | SVR or FSB | US elections medling  |
+| [Sandworm](https://en.wikipedia.org/wiki/Sandworm_(hacker_group)) or Voodoo Bear | GRU | [NotPetya](https://en.wikipedia.org/wiki/Petya_and_NotPetya), 2017 cyberattack on Ukraine |
+| [Fancy Bear](https://en.wikipedia.org/wiki/Fancy_Bear) or APT28 | GRU | US elections meddling |
+| [Cozy Bear](https://en.wikipedia.org/wiki/Cozy_Bear), or APT29 | SVR or FSB | US elections meddling |
 
-$$Cozy Bear +Fancy Bear= Grizzle Steppe
+$$Cozy Bear + Fancy Bear = Grizzle Steppe
 $$
 
 <!--

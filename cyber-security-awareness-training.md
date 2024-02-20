@@ -205,7 +205,7 @@ Other examples: black hat hackers
 ![width:700px](./images/NSA_COTTONMOUTH-I-cropped.png)
 
 - In 2008, this hardware implant costed $20'300 per unit
-- In 2024, it is [available online](https://shop.hak5.org/products/omg-cable) for less than $200
+- In 2024, it is [available online](https://shop.hak5.org/products/omg-cable) for less than $200 per unit
 
 <!--
 
@@ -220,7 +220,7 @@ Other examples: black hat hackers
 |  | High impact | Low impact |
 | --- | --- | --- |
 | Rare | *APTs* | *N/A* |
-| Common | *Criminal groups* | *User mistakes or errors* |
+| Common | *Criminal groups* | *User errors* |
 
 <!--
 Can you think of a user error with security implication? (e.g. leave computer unlocked and unattended)
@@ -355,30 +355,40 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 ![bg 60%](images/password_strength.png)
 
 
----
-
-<!-- _header: 4. Improve your digital hygiene -->
-
-#### How to share information online?
-
-**Protect data in transit...**
-
-* Avoid sharing very sensitive information online. If you need to do so, **use E2EE**
-  * Emails are rarely end-to-end encrypted (E2EE)
-  * Most real-time messaging applications do not use E2EE
-  * Mobile applications such as WhatsApp or Signal use E2EE
-* Use HTTPS and your corporate VPN
-
 <!--
 
-- https://www.wikipedia.org/
+- How to store password? How about to write it down [on a piece of paper?](https://www.schneier.com/blog/archives/2005/06/write_down_your.html)
+
+- Let's do it! https://wallboard.nonspee.ch/boards/anonymous
 
 -->
 
 ---
 
 <!-- _header: 4. Improve your digital hygiene -->
-<style scoped> { font-size: 190%}</style>
+<style scoped> { font-size: 240%}</style>
+
+#### How to share information online?
+
+**Protect data in transit...**
+
+* Avoid sharing very sensitive information online. If you need to do so, use a transport method that support **end-to-end encryption (E2EE)**
+  * Emails rarely rely on E2EE
+  * Most real-time messaging applications do not use E2EE (e.g. Skype; Teams; Slack)
+  * Some mobile messaging applications such as WhatsApp or Signal use E2EE
+* Use HTTPS and your corporate VPN
+
+<!--
+
+- Exemple: https://pastebin.nonspee.ch/
+- What kind of data do Facebook know about us when we use WhatsApp? Metadata, like size of messages, contacts
+
+-->
+
+---
+
+<!-- _header: 4. Improve your digital hygiene -->
+<style scoped> { font-size: 240%}</style>
 
 ...**And protect data at rest**
 
@@ -390,7 +400,7 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
       * [Turn on](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838#ID0EBD=Windows_11) device encryption on Windows
     * For macOS, browse [here](https://support.apple.com/guide/mac-help/protect-your-mac-information-with-encryption-mh40593/mac)
     * iOS enables encryption by default. More information [here](https://support.apple.com/guide/security/encryption-and-data-protection-overview-sece3bee0835/1/web/1)
-    * Android supports [file-based encryption](https://source.android.com/docs/security/features/encryption/file-based)
+    * Android supports [file-based encryption](https://source.android.com/docs/security/features/encryption/file-based) and it must be enabled
 
 ---
 
@@ -412,7 +422,7 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 | Don't delay updates. Update your phone when updates are available | Simple [(Android](https://support.google.com/android/answer/7680439?hl=en) or [iOS](https://support.apple.com/en-us/HT204204))| |
 | Encrypt your phone storage and SD card (if applicable) | Simple | |
 | Use a browser like Firefox, compatible with uBlock Origin | Simple to Moderate | |
-| Use a your smartphone to generate one-time passwords | [Moderate](https://support.microsoft.com/en-us/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a) | |
+| Use your smartphone to generate one-time passwords | [Moderate](https://support.microsoft.com/en-us/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a) | |
 | Don't use a smartphone | Impossible? | |
 
 
@@ -426,9 +436,9 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 
 | Action | Difficulty | Done? |
 | - | - | - |
-| Disable or uninstall all unwanted applications | Simple to moderate ([Windows 11 or 10](https://support.microsoft.com/en-us/windows/uninstall-or-remove-apps-and-programs-in-windows-4b55f974-2cc6-2d2b-d092-5905080eaf98))  | |
+| Disable or uninstall all unwanted applications | Simple to moderate ([Windows 11 or 10](https://support.microsoft.com/en-us/windows/uninstall-or-remove-apps-and-programs-in-windows-4b55f974-2cc6-2d2b-d092-5905080eaf98)) | |
 | Don't delay updates. Update your computer when updates are available | Simple [(Windows 11 or 10)](https://support.google.com/android/answer/9079129?hl=en) | | 
-| Check if encryption is enable. If not enable, contact IT | Simple [(Windows 11 or 10)](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) | | 
+| Check if encryption is enabled. If not enable, contact IT | Simple [(Windows 11 or 10)](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) | | 
 | Set a browser as the default application | Simple to almost impossible [Windows 10 or 11](https://support.microsoft.com/en-us/windows/change-default-programs-in-windows-e5d82cad-17d1-c53b-3505-f10a32e1894d#ID0EDD=Windows_11) | |
 
 ---
@@ -448,9 +458,8 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 
 | Type | Name and URL | Description |
 | - | :-: | -: |
-| Resources | https://privacytools.is | “Privacy Tools” is a website that provides a list of tools and privacy-oriented services |
-| Resources | https://prism-break.org | "Prism Break” is a website that provides a list of tools and privacy-oriented services |
-| Mobile software | https://f-droid.org | F-droid provides an alternative to Google Store for Android phones |
+| Resources | [PRISM Break](https://prism-break.org/en/) | "Prism Break” is a website that provides a list of tools and privacy-oriented services |
+| Mobile software | [F-Droid](https://f-droid.org) | F-droid provides an alternative to Google Store for Android phones |
 | ONG | [The Privacy Lab](https://privacylab.yale.edu/)| Privacy laboratory attached to the Yale University |
 | ONG | [CyberPeace Institute](https://cyberpeaceinstitute.org/) | The CyberPeace Institute is a Geneva-based organization protecting the most vulnerable in cyberspace |
 
@@ -460,4 +469,4 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 
 - Lukas Greve: please@refre.ch
 
-- Source: https://github.com/luzeal/publications/blob/master/presentations/cyber-security-awareness-training.md
+- Source: https://github.com/luzeal/jacat

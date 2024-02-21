@@ -326,7 +326,7 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 ---
 
 <!-- _header: 4. Improve your digital hygiene -->
-<style scoped> { font-size: 200%}</style>
+<style scoped> { font-size: 180%}</style>
 
 #### Surf safely online
 
@@ -366,7 +366,7 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 ---
 
 <!-- _header: 4. Improve your digital hygiene -->
-<style scoped> { font-size: 240%}</style>
+<style scoped> { font-size: 220%}</style>
 
 #### How to share information online?
 
@@ -388,7 +388,7 @@ See the ANT Catalog https://en.wikipedia.org/wiki/ANT_catalog
 ---
 
 <!-- _header: 4. Improve your digital hygiene -->
-<style scoped> { font-size: 240%}</style>
+<style scoped> { font-size: 220%}</style>
 
 ...**And protect data at rest**
 
